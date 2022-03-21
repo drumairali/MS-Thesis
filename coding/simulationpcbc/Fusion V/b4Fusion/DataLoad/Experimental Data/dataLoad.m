@@ -1,5 +1,0 @@
-load 'usblData.mat'
-load 'odometryData.mat'
-load 'filterBarN.mat'
-load 'dgpsData.mat'
-load 'compassDAta.mat'
