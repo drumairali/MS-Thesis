@@ -13,7 +13,7 @@ sigm = 0.2
 A = 1
 
 rangeX = np.linspace(1,10,100)
-centers = np.array([4.5,5,5.5])
+centers = np.array([1.5])
 W=np.zeros([len(centers),len(rangeX)])
 for iw in range(len(centers)):
     WG1D = G1D(rangeX,centers[iw],sigm,A).T
